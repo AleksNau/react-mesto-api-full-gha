@@ -1,0 +1,25 @@
+.profile__name {
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(27px + (42 - 27) * ((100vw - 320px) / (1280 - 320)));
+    line-height: calc(33px + (48 - 33) * ((100vw - 320px) / (1280 - 320)));
+    margin: 0 18px 0 0;
+    -ms-grid-row-align: end;
+    align-self: end;
+    grid-area: name;
+    max-width: 294px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .profile__name {
+        -ms-grid-column-align: center;
+        justify-self: center;
+        padding-top: 26px;
+        margin: 0 10px 0 0;
+    }
+}

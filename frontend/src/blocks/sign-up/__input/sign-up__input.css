@@ -1,0 +1,30 @@
+.sign-up__input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+width: 100%;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    padding-bottom: 9px;
+    border-style: none;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    max-width: 358px;
+    margin: 0 auto;
+}
+
+.sign-up__input:focus {
+    outline: none;
+}
+
+
+.sign-up__input_type_error {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+}

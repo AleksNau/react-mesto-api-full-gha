@@ -1,0 +1,10 @@
+.elements__like_active {
+    -webkit-transition: opacity linear .4s;
+    -o-transition: opacity linear .4s;
+    transition: opacity linear .4s;
+    cursor: pointer;
+    width: 22px;
+    height: 19px;
+    border: none;
+    background: transparent url("../images/active.svg") no-repeat;
+}

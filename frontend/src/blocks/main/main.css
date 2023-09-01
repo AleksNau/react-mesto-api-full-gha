@@ -1,0 +1,5 @@
+.main {
+    width: calc(282px + (880 - 282) * ((100vw - 320px) / (1280 - 320)));
+    max-width: 880px;
+    margin: 0 auto;
+}

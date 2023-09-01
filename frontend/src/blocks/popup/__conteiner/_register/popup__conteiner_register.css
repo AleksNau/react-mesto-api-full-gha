@@ -1,0 +1,9 @@
+.popup__conteiner_register {
+    padding: 60px 36px;
+}
+
+@media screen and (max-width: 720px) {
+    .popup__conteiner_register {
+        padding: 50px 18px;
+    }
+}
