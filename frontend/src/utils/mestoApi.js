@@ -45,5 +45,5 @@ class mestoApi {
   }
 }
 
-const authMesto = new mestoApi("http://localhost:3000");
+const authMesto = new mestoApi("http://api.pr15.aleksnau.nomoredomainsicu.ru");
 export default authMesto;

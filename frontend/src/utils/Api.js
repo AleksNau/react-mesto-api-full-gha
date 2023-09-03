@@ -129,5 +129,5 @@ class Api {
 
 }
 
-const api = new Api("http://localhost:3000");
+const api = new Api("http://api.pr15.aleksnau.nomoredomainsicu.ru");
 export default api;
