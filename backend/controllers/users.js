@@ -127,9 +127,7 @@ const getCurrentUser = (req, res, next) => {
       res.status(200).send(user);
     })
     .catch((err) => {
-      if (err.message === 'NotFound') {
-        return next(new NotFoundError('Пользователь не найден'));
-      } return next(err);
+        return next(err);
     });
 };
 
