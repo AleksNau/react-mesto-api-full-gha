@@ -27,7 +27,7 @@ const validationUpdateUser = celebrate({
 
 const validationUpdateAvatar = celebrate({
   body: Joi.object().keys({
-    avatar: Joi.string().regex(validationURL),
+    avatar: Joi.string().regex(validationURL).required(),
   }),
 });
 
