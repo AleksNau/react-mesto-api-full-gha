@@ -33,7 +33,6 @@ const limiter = rateLimit({
   max: 100,
 });
 
-
 app.use(helmet());
 
 module.exports.createCard = () => {
@@ -46,12 +45,16 @@ const router = require('./routes/index');
 
 app.use(express.json());
 // подключили роуты юзера
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 app.post('/signin', validationLogin, login);
 app.post('/signup', validationCreateUser, createProfile);
 
 app.use(auth);
 app.use(router);
-
 
 app.use(errorLogger);
 app.use(errors());

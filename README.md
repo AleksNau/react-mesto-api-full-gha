@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.79.146
 
-Frontend https://...
+Frontend https://pr15.aleksnau.nomoredomainsicu.ru/
 
-Backend https://...
+Backend https://api.pr15.aleksnau.nomoredomainsicu.ru/
