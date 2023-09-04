@@ -45,5 +45,5 @@ class mestoApi {
   }
 }
 
-const authMesto = new mestoApi("http://api.pr15.aleksnau.nomoredomainsicu.ru");
+const authMesto = new mestoApi("https://api.pr15.aleksnau.nomoredomainsicu.ru");
 export default authMesto;

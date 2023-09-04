@@ -129,5 +129,5 @@ class Api {
 
 }
 
-const api = new Api("http://api.pr15.aleksnau.nomoredomainsicu.ru");
+const api = new Api("https://api.pr15.aleksnau.nomoredomainsicu.ru");
 export default api;
