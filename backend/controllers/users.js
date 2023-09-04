@@ -3,12 +3,11 @@ const { CastError, ValidationError } = require('mongoose').Error;
 const bcrypt = require('bcrypt');
 const userModel = require('../models/user');
 const { getJwtToken } = require('../utils/jwt');
-// ForbiddenError,
+
 const {
   BadRequestError,
   NotFoundError,
   ConflictError,
-
 } = require('../errors/errors');
 
 const createProfile = (req, res, next) => {
